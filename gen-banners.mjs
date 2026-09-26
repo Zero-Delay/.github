@@ -9,8 +9,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const img = (p) =>
   'data:image/png;base64,' + readFileSync(join(__dirname, 'assets', 'src', p)).toString('base64');
 
-const mark = img('logo-mark-white.png');       // 256x134 速度云 + Z
-const wordmark = img('logo-wordmark-white.png'); // 1280x220 ZeroDelay 字标
+// 现成横版组合 logo（官方比例，icon + 字标一体），2x lanczos 放大后嵌入，缩放显示保持清晰
+const horizontal = img('logo-horizontal-white@2x.png'); // 1280x202
 
 const cornerBrackets = (pad, len, sw) => `
   <g stroke="#22d3ee" stroke-width="${sw}" fill="none" opacity="0.45">
@@ -32,8 +32,7 @@ const banner = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.
   <rect x="0.5" y="0.5" width="1599" height="419" fill="none" stroke="#1f2937" stroke-width="1"/>
   <circle cx="1480" cy="52" r="300" fill="none" stroke="#22d3ee" stroke-width="52" opacity="0.05"/>
   <circle cx="84" cy="404" r="170" fill="none" stroke="#22d3ee" stroke-width="36" opacity="0.04"/>${cornerBrackets(40, 32, 3)}
-  <image href="${mark}" xlink:href="${mark}" x="428" y="100" width="183" height="96"/>
-  <image href="${wordmark}" xlink:href="${wordmark}" x="647" y="103" width="524" height="90"/>
+  <image href="${horizontal}" xlink:href="${horizontal}" x="430" y="92" width="740" height="117"/>
   <text x="800" y="260" text-anchor="middle" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif" font-size="24" fill="#9ca3af" letter-spacing="2">开服不绕路，下载零等待</text>
   <rect x="660" y="292" width="280" height="1" fill="url(#zd-grad-line)"/>
   <text x="800" y="332" text-anchor="middle" font-family="'Cascadia Code', Consolas, 'JetBrains Mono', monospace" font-size="19" fill="#22d3ee" letter-spacing="1">[ FIVEM / REDM 资源与中文教程社区 ]</text>
@@ -56,8 +55,7 @@ const social = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.
     <path d="M 1224 532 L 1224 584 L 1172 584"/>
     <path d="M 108 584 L 56 584 L 56 532"/>
   </g>
-  <image href="${mark}" xlink:href="${mark}" x="186" y="170" width="229" height="120"/>
-  <image href="${wordmark}" xlink:href="${wordmark}" x="455" y="175" width="640" height="110"/>
+  <image href="${horizontal}" xlink:href="${horizontal}" x="310" y="178" width="660" height="104"/>
   <text x="640" y="350" text-anchor="middle" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif" font-size="30" fill="#9ca3af" letter-spacing="4">开服不绕路，下载零等待</text>
   <rect x="500" y="396" width="280" height="2" fill="url(#zd-grad-line)"/>
   <text x="640" y="448" text-anchor="middle" font-family="'Cascadia Code', Consolas, 'JetBrains Mono', monospace" font-size="26" fill="#22d3ee" letter-spacing="1">[ FIVEM / REDM 资源与中文教程社区 ]</text>
