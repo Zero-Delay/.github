@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://zerodelay.com.cn">
-    <img src="assets/banner.svg" alt="ZeroDelay — 开服不绕路，下载零等待" width="100%" />
+    <img src="../assets/banner.svg" alt="ZeroDelay — 开服不绕路，下载零等待" width="100%" />
   </a>
 
 # ZeroDelay
