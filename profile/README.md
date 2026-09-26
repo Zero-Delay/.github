@@ -31,9 +31,9 @@ ZeroDelay（zerodelay.com.cn）是面向中文玩家的 FiveM / RedM 资源站�
 
 | 仓库 | 说明 |
 | --- | --- |
-| [zd-resources-preview](https://github.com/Zero-Delay) | （示例行，发布后替换为实际仓库） |
+| [zd_resources_preview](https://github.com/Zero-Delay) | （示例行，发布后替换为实际仓库） |
 
-> 资源仓库将陆续在此组织发布，仓库统一以 `zd-` 前缀命名。点击右上角 **Watch** 即可第一时间收到更新。
+> 资源仓库将陆续在此组织发布，仓库统一以 `zd_` 前缀命名。点击右上角 **Watch** 即可第一时间收到更新。
 
 ## `[ 链接 ]`
 
