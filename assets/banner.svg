@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420" width="1600" height="420" role="img" aria-label="ZeroDelay - FiveM / RedM resources and Chinese tutorials">
+  <defs>
+    <linearGradient id="zd-grad-icon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="zd-grad-text" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="zd-grad-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 纯平近黑底（与站点 #0b0d12 同源） -->
+  <rect width="1600" height="420" fill="#0b0d12"/>
+  <rect x="0.5" y="0.5" width="1599" height="419" fill="none" stroke="#1f2937" stroke-width="1"/>
+
+  <!-- 水印圆环：「0 / 零」母题，极低透明度 -->
+  <circle cx="1480" cy="52" r="300" fill="none" stroke="url(#zd-grad-icon)" stroke-width="52" opacity="0.05"/>
+  <circle cx="84" cy="404" r="170" fill="none" stroke="#22d3ee" stroke-width="36" opacity="0.04"/>
+
+  <!-- 角括号装饰（站点卡片同款语法） -->
+  <g stroke="#22d3ee" stroke-width="3" fill="none" opacity="0.45">
+    <path d="M 40 72 L 40 40 L 72 40"/>
+    <path d="M 1528 40 L 1560 40 L 1560 72"/>
+    <path d="M 1560 348 L 1560 380 L 1528 380"/>
+    <path d="M 72 380 L 40 380 L 40 348"/>
+  </g>
+
+  <!-- 图标：圆环 + Z（品牌渐变） -->
+  <g transform="translate(756,52) scale(1.375)">
+    <rect width="64" height="64" rx="14" fill="#0f172a"/>
+    <circle cx="32" cy="32" r="21" fill="none" stroke="url(#zd-grad-icon)" stroke-width="5.5"/>
+    <polygon points="19,19 45,19 45,25 29,25 45,45 45,51 19,51 19,45 35,45 19,25" fill="url(#zd-grad-icon)"/>
+  </g>
+
+  <!-- 字标：Zero 白 + Delay 渐变（Inter 800） -->
+  <text x="800" y="228" text-anchor="middle"
+        font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif"
+        font-size="72" font-weight="800" letter-spacing="1">
+    <tspan fill="#ffffff">Zero</tspan><tspan fill="url(#zd-grad-text)">Delay</tspan>
+  </text>
+
+  <!-- 副标语 -->
+  <text x="800" y="272" text-anchor="middle"
+        font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif"
+        font-size="24" fill="#9ca3af" letter-spacing="2">开服不绕路，下载零等待</text>
+
+  <!-- 分隔细线（电光青） -->
+  <rect x="660" y="300" width="280" height="1" fill="url(#zd-grad-line)"/>
+
+  <!-- 方括号标签（等宽字体，站点导航同款语法） -->
+  <text x="800" y="340" text-anchor="middle"
+        font-family="'Cascadia Code', Consolas, 'JetBrains Mono', monospace"
+        font-size="19" fill="#22d3ee" letter-spacing="1">[ FIVEM / REDM 资源与中文教程社区 ]</text>
+</svg>
