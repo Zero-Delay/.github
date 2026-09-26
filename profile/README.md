@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://zerodelay.com.cn">
-    <img src="../assets/banner.svg" alt="ZeroDelay — 开服不绕路，下载零等待" width="100%" />
+    <img src="../assets/banner.svg" alt="ZeroDelay — 免费资源 · 中文教程 · 版本可追溯" width="100%" />
   </a>
 
 # ZeroDelay
@@ -10,7 +10,7 @@
 [![WEB](https://img.shields.io/badge/WEB-zerodelay.com.cn-22d3ee?style=flat-square&labelColor=0b0d12)](https://zerodelay.com.cn)
 [![PLATFORM](https://img.shields.io/badge/PLATFORM-FiveM%20%2F%20RedM-22d3ee?style=flat-square&labelColor=0b0d12)](https://zerodelay.com.cn/resources)
 [![DOCS](https://img.shields.io/badge/DOCS-中文教程-22d3ee?style=flat-square&labelColor=0b0d12)](https://zerodelay.com.cn/tutorials)
-[![COST](https://img.shields.io/badge/COST-免费下载-22d3ee?style=flat-square&labelColor=0b0d12)](https://zerodelay.com.cn)
+[![COST](https://img.shields.io/badge/COST-免费资源-22d3ee?style=flat-square&labelColor=0b0d12)](https://zerodelay.com.cn)
 
 </div>
 
@@ -18,7 +18,7 @@
 
 ZeroDelay（zerodelay.com.cn）是面向中文玩家的 FiveM / RedM 资源站与教程社区。
 
-我们只做一件事：让服务器开发者少走弯路 —— 资源免费下载、教程全中文、每个版本都有据可查。
+我们只做一件事：让服务器开发者少走弯路 —— 资源全部免费、教程全中文、每个版本都有据可查。
 
 ## `[ 你可以在这里获得 ]`
 
@@ -48,6 +48,6 @@ ZeroDelay（zerodelay.com.cn）是面向中文玩家的 FiveM / RedM 资源站�
 
 `zerodelay.com.cn` · `© 2026 ZeroDelay`
 
-**开服不绕路，下载零等待**
+**免费资源 · 中文教程 · 版本可追溯**
 
 </div>

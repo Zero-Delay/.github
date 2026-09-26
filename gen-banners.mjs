@@ -33,7 +33,7 @@ const banner = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.
   <circle cx="1480" cy="52" r="300" fill="none" stroke="#22d3ee" stroke-width="52" opacity="0.05"/>
   <circle cx="84" cy="404" r="170" fill="none" stroke="#22d3ee" stroke-width="36" opacity="0.04"/>${cornerBrackets(40, 32, 3)}
   <image href="${horizontal}" xlink:href="${horizontal}" x="430" y="92" width="740" height="117"/>
-  <text x="800" y="260" text-anchor="middle" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif" font-size="24" fill="#9ca3af" letter-spacing="2">开服不绕路，下载零等待</text>
+  <text x="800" y="260" text-anchor="middle" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif" font-size="24" fill="#9ca3af" letter-spacing="2">免费资源 · 中文教程 · 版本可追溯</text>
   <rect x="660" y="292" width="280" height="1" fill="url(#zd-grad-line)"/>
   <text x="800" y="332" text-anchor="middle" font-family="'Cascadia Code', Consolas, 'JetBrains Mono', monospace" font-size="19" fill="#22d3ee" letter-spacing="1">[ FIVEM / REDM 资源与中文教程社区 ]</text>
 </svg>`;
@@ -56,7 +56,7 @@ const social = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.
     <path d="M 108 584 L 56 584 L 56 532"/>
   </g>
   <image href="${horizontal}" xlink:href="${horizontal}" x="310" y="178" width="660" height="104"/>
-  <text x="640" y="350" text-anchor="middle" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif" font-size="30" fill="#9ca3af" letter-spacing="4">开服不绕路，下载零等待</text>
+  <text x="640" y="350" text-anchor="middle" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif" font-size="30" fill="#9ca3af" letter-spacing="4">免费资源 · 中文教程 · 版本可追溯</text>
   <rect x="500" y="396" width="280" height="2" fill="url(#zd-grad-line)"/>
   <text x="640" y="448" text-anchor="middle" font-family="'Cascadia Code', Consolas, 'JetBrains Mono', monospace" font-size="26" fill="#22d3ee" letter-spacing="1">[ FIVEM / REDM 资源与中文教程社区 ]</text>
 </svg>`;
